@@ -153,7 +153,7 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@blitz/eslint-plugin": "0.1.0",
+    "@blitz/eslint-plugin": "0.1.4",
     "@cloudflare/workers-types": "^4.20241127.0",
     "@electron/notarize": "^2.5.0",
     "@iconify-json/ph": "^1.2.1",
