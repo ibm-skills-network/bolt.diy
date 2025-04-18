@@ -79,7 +79,7 @@ dependencies:
     version: 6.36.5
   '@headlessui/react':
     specifier: ^2.2.0
-    version: 2.2.1(react-dom@18.3.1)(react@18.3.1)
+    version: 2.2.2(react-dom@18.3.1)(react@18.3.1)
   '@heroicons/react':
     specifier: ^2.2.0
     version: 2.2.0(react@18.3.1)
@@ -2905,8 +2905,8 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@headlessui/react@2.2.1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-daiUqVLae8CKVjEVT19P/izW0aGK0GNhMSAeMlrDebKmoVZHcRRwbxzgtnEadUVDXyBsWo9/UH4KHeniO+0tMg==}
+  /@headlessui/react@2.2.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-zbniWOYBQ8GHSUIOPY7BbdIn6PzUOq0z41RFrF30HbjsxG6Rrfk+6QulR8Kgf2Vwj2a/rE6i62q5vo+2gI5dJA==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
@@ -2918,6 +2918,7 @@ packages:
       '@tanstack/react-virtual': 3.13.6(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+      use-sync-external-store: 1.5.0(react@18.3.1)
     dev: false
 
   /@heroicons/react@2.2.0(react@18.3.1):
