@@ -163,7 +163,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@types/diff": "^5.2.3",
-    "@types/dom-speech-recognition": "^0.0.4",
+    "@types/dom-speech-recognition": "^0.0.6",
     "@types/electron": "^1.6.12",
     "@types/file-saver": "^2.0.7",
     "@types/js-cookie": "^3.0.6",
