@@ -18,7 +18,7 @@ on:
   repository_dispatch:
 jobs:
   build:
-    uses: ibm-skills-network/.github/.github/workflows/release.yml@main
+    uses: ibm-skills-network/.github/.github/workflows/release.yml@dont-break-release-on-public
     with:
       image: icr.io/skills-network-labs/tools.bolt.diy
       docker_target: bolt-ai-production
