@@ -124,7 +124,7 @@
     "jszip": "^3.10.1",
     "lucide-react": "^0.485.0",
     "mime": "^4.0.4",
-    "nanostores": "^0.10.3",
+    "nanostores": "^0.11.0",
     "ollama-ai-provider": "^0.16.0",
     "path-browserify": "^1.0.1",
     "react": "^18.3.1",
