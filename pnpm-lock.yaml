@@ -157,7 +157,7 @@ dependencies:
     version: 2.16.5(react-dom@18.3.1)(react@18.3.1)(typescript@5.8.3)
   '@tanstack/react-virtual':
     specifier: ^3.13.0
-    version: 3.13.6(react-dom@18.3.1)(react@18.3.1)
+    version: 3.13.8(react-dom@18.3.1)(react@18.3.1)
   '@types/react-beautiful-dnd':
     specifier: ^13.1.8
     version: 13.1.8
@@ -2919,7 +2919,7 @@ packages:
       '@floating-ui/react': 0.26.28(react-dom@18.3.1)(react@18.3.1)
       '@react-aria/focus': 3.20.2(react-dom@18.3.1)(react@18.3.1)
       '@react-aria/interactions': 3.25.0(react-dom@18.3.1)(react@18.3.1)
-      '@tanstack/react-virtual': 3.13.6(react-dom@18.3.1)(react@18.3.1)
+      '@tanstack/react-virtual': 3.13.8(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       use-sync-external-store: 1.5.0(react@18.3.1)
@@ -3358,8 +3358,8 @@ packages:
       - supports-color
     dev: true
 
-  /@modelcontextprotocol/sdk@1.11.2:
-    resolution: {integrity: sha512-H9vwztj5OAqHg9GockCQC06k1natgcxWQSRpQcPJf6i5+MWBzfKkRtxGbjQf0X2ihii0ffLZCRGbYV2f2bjNCQ==}
+  /@modelcontextprotocol/sdk@1.11.3:
+    resolution: {integrity: sha512-rmOWVRUbUJD7iSvJugjUbFZshTAuJ48MXoZ80Osx1GM0K/H1w7rSEvmw8m6vdWxNASgtaHIhAgre4H/E9GJiYQ==}
     engines: {node: '>=18'}
     dependencies:
       content-type: 1.0.5
@@ -5490,19 +5490,19 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
-  /@tanstack/react-virtual@3.13.6(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-WT7nWs8ximoQ0CDx/ngoFP7HbQF9Q2wQe4nh2NB+u2486eX3nZRE40P9g6ccCVq7ZfTSH5gFOuCoVH5DLNS/aA==}
+  /@tanstack/react-virtual@3.13.8(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-meS2AanUg50f3FBSNoAdBSRAh8uS0ue01qm7zrw65KGJtiXB9QXfybqZwkh4uFpRv2iX/eu5tjcH5wqUpwYLPg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
-      '@tanstack/virtual-core': 3.13.6
+      '@tanstack/virtual-core': 3.13.8
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@tanstack/virtual-core@3.13.6:
-    resolution: {integrity: sha512-cnQUeWnhNP8tJ4WsGcYiX24Gjkc9ALstLbHcBj1t3E7EimN6n6kHH+DPV4PpDnuw00NApQp+ViojMj1GRdwYQg==}
+  /@tanstack/virtual-core@3.13.8:
+    resolution: {integrity: sha512-BT6w89Hqy7YKaWewYzmecXQzcJh6HTBbKYJIIkMaNU49DZ06LoTV3z32DWWEdUsgW6n1xTmwTLs4GtWrZC261w==}
     dev: false
 
   /@testing-library/dom@10.4.0:
@@ -8792,7 +8792,7 @@ packages:
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
       '@humanwhocodes/retry': 0.4.3
-      '@modelcontextprotocol/sdk': 1.11.2
+      '@modelcontextprotocol/sdk': 1.11.3
       '@types/estree': 1.0.7
       '@types/json-schema': 7.0.15
       ajv: 6.12.6
