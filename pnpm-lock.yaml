@@ -328,7 +328,7 @@ dependencies:
     version: 3.24.4
   zustand:
     specifier: ^5.0.3
-    version: 5.0.4(@types/react@18.3.21)(react@18.3.1)
+    version: 5.0.5(@types/react@18.3.21)(react@18.3.1)
 
 devDependencies:
   '@blitz/eslint-plugin':
@@ -15602,8 +15602,8 @@ packages:
     resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
     dev: false
 
-  /zustand@5.0.4(@types/react@18.3.21)(react@18.3.1):
-    resolution: {integrity: sha512-39VFTN5InDtMd28ZhjLyuTnlytDr9HfwO512Ai4I8ZABCoyAj4F1+sr7sD1jP/+p7k77Iko0Pb5NhgBFDCX0kQ==}
+  /zustand@5.0.5(@types/react@18.3.21)(react@18.3.1):
+    resolution: {integrity: sha512-mILtRfKW9xM47hqxGIxCv12gXusoY/xTSHBYApXozR0HmQv299whhBeeAcRy+KrPPybzosvJBCOmVjq6x12fCg==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=18.0.0'
