@@ -426,7 +426,7 @@ devDependencies:
     version: 3.3.2
   pnpm:
     specifier: ^10.0.0
-    version: 10.10.0
+    version: 10.11.0
   prettier:
     specifier: ^3.5.3
     version: 3.5.3
@@ -12558,8 +12558,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@10.10.0:
-    resolution: {integrity: sha512-1hXbJG/nDyXc/qbY1z3ueCziPiJF48T2+Igkn7VoFJMYY33Kc8LFyO8qTKDVZX+5VnGIv6tH9WbR7mzph4FcOQ==}
+  /pnpm@10.11.0:
+    resolution: {integrity: sha512-ZUBYP0HMX2KOs9l3Ps7oAvT575kjzEW2mJD7R5kdSwkpZGlOw6T3OKQgyRijMwYsi5JdMS9C5PDCY+tgNVH5dw==}
     engines: {node: '>=18.12'}
     hasBin: true
     dev: true
