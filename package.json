@@ -122,7 +122,7 @@
     "js-cookie": "^3.0.5",
     "jspdf": "^3.0.2",
     "jszip": "^3.10.1",
-    "lucide-react": "^0.555.0",
+    "lucide-react": "^0.562.0",
     "mime": "^4.0.4",
     "nanostores": "^0.11.0",
     "ollama-ai-provider": "^0.16.0",
