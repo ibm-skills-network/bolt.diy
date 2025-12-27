@@ -91,7 +91,7 @@ importers:
         version: 1.2.4
       '@lezer/highlight':
         specifier: ^1.2.1
-        version: 1.2.1
+        version: 1.2.3
       '@nanostores/react':
         specifier: ^0.8.0
         version: 0.8.4(nanostores@0.11.4)(react@18.3.1)
@@ -404,7 +404,7 @@ importers:
         version: 35.7.5
       electron-builder:
         specifier: ^25.1.8
-        version: 25.1.8(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8))
+        version: 25.1.8(electron-builder-squirrel-windows@25.1.8)
       eslint-config-prettier:
         specifier: ^10.1.1
         version: 10.1.5(eslint@9.25.1(jiti@2.4.2))
@@ -1926,14 +1926,17 @@ packages:
   '@lezer/common@1.2.3':
     resolution: {integrity: sha512-w7ojc8ejBqr2REPsWxJjrMFsA/ysDCFICn8zEOR9mrqzOu2amhITYuLD8ag6XZf0CFXDrhKqw7+tW8cX66NaDA==}
 
+  '@lezer/common@1.5.0':
+    resolution: {integrity: sha512-PNGcolp9hr4PJdXR4ix7XtixDrClScvtSCYW3rQG106oVMOOI+jFb+0+J3mbeL/53g1Zd6s0kJzaw6Ri68GmAA==}
+
   '@lezer/cpp@1.1.3':
     resolution: {integrity: sha512-ykYvuFQKGsRi6IcE+/hCSGUhb/I4WPjd3ELhEblm2wS2cOznDFzO+ubK2c+ioysOnlZ3EduV+MVQFCPzAIoY3w==}
 
   '@lezer/css@1.1.11':
     resolution: {integrity: sha512-FuAnusbLBl1SEAtfN8NdShxYJiESKw9LAFysfea1T96jD3ydBn12oYjaSG1a04BQRIUd93/0D8e5CV1cUMkmQg==}
 
-  '@lezer/highlight@1.2.1':
-    resolution: {integrity: sha512-Z5duk4RN/3zuVO7Jq0pGLJ3qynpxUVsh7IbUbGj88+uV2ApSAn6kWg2au3iJb+0Zi7kKtqffIESgNcRXWZWmSA==}
+  '@lezer/highlight@1.2.3':
+    resolution: {integrity: sha512-qXdH7UqTvGfdVBINrgKhDsVTJTxactNNxLk7+UMwZhU13lMHaOBlJe9Vqp907ya56Y3+ed2tlqzys7jDkTmW0g==}
 
   '@lezer/html@1.3.10':
     resolution: {integrity: sha512-dqpT8nISx/p9Do3AchvYGV3qYc4/rKr3IBZxlHmpIKam56P47RSHkSF5f13Vu9hebS1jM0HmtJIwLbWz1VIY6w==}
@@ -9157,14 +9160,14 @@ snapshots:
       '@codemirror/lang-javascript': 6.2.4
       '@codemirror/language': 6.11.1
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@codemirror/lang-wast@6.0.2':
     dependencies:
       '@codemirror/language': 6.11.1
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@codemirror/language@6.11.1':
@@ -9172,7 +9175,7 @@ snapshots:
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.37.1
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
       style-mod: 4.1.2
 
@@ -9846,38 +9849,40 @@ snapshots:
 
   '@lezer/common@1.2.3': {}
 
+  '@lezer/common@1.5.0': {}
+
   '@lezer/cpp@1.1.3':
     dependencies:
-      '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/common': 1.5.0
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@lezer/css@1.1.11':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
-  '@lezer/highlight@1.2.1':
+  '@lezer/highlight@1.2.3':
     dependencies:
-      '@lezer/common': 1.2.3
+      '@lezer/common': 1.5.0
 
   '@lezer/html@1.3.10':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@lezer/javascript@1.5.1':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@lezer/json@1.0.3':
     dependencies:
-      '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/common': 1.5.0
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@lezer/lr@1.4.2':
@@ -9887,18 +9892,18 @@ snapshots:
   '@lezer/markdown@1.4.3':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
 
   '@lezer/python@1.1.18':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@lezer/sass@1.0.7':
     dependencies:
       '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
+      '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.2
 
   '@malept/cross-spawn-promise@2.0.0':
@@ -11923,7 +11928,7 @@ snapshots:
 
   app-builder-bin@5.0.0-alpha.10: {}
 
-  app-builder-lib@25.1.8(dmg-builder@25.1.8(electron-builder-squirrel-windows@25.1.8))(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8)):
+  app-builder-lib@25.1.8(dmg-builder@25.1.8)(electron-builder-squirrel-windows@25.1.8):
     dependencies:
       '@develar/schema-utils': 2.6.5
       '@electron/notarize': 2.5.0
@@ -12803,7 +12808,7 @@ snapshots:
 
   dmg-builder@25.1.8(electron-builder-squirrel-windows@25.1.8):
     dependencies:
-      app-builder-lib: 25.1.8(dmg-builder@25.1.8(electron-builder-squirrel-windows@25.1.8))(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8))
+      app-builder-lib: 25.1.8(dmg-builder@25.1.8)(electron-builder-squirrel-windows@25.1.8)
       builder-util: 25.1.7
       builder-util-runtime: 9.2.10
       fs-extra: 10.1.0
@@ -12888,7 +12893,7 @@ snapshots:
 
   electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8):
     dependencies:
-      app-builder-lib: 25.1.8(dmg-builder@25.1.8(electron-builder-squirrel-windows@25.1.8))(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8))
+      app-builder-lib: 25.1.8(dmg-builder@25.1.8)(electron-builder-squirrel-windows@25.1.8)
       archiver: 5.3.2
       builder-util: 25.1.7
       fs-extra: 10.1.0
@@ -12897,9 +12902,9 @@ snapshots:
       - dmg-builder
       - supports-color
 
-  electron-builder@25.1.8(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8)):
+  electron-builder@25.1.8(electron-builder-squirrel-windows@25.1.8):
     dependencies:
-      app-builder-lib: 25.1.8(dmg-builder@25.1.8(electron-builder-squirrel-windows@25.1.8))(electron-builder-squirrel-windows@25.1.8(dmg-builder@25.1.8))
+      app-builder-lib: 25.1.8(dmg-builder@25.1.8)(electron-builder-squirrel-windows@25.1.8)
       builder-util: 25.1.7
       builder-util-runtime: 9.2.10
       chalk: 4.1.2
