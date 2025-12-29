@@ -268,7 +268,7 @@ importers:
         version: 13.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-chartjs-2:
         specifier: ^5.3.0
-        version: 5.3.0(chart.js@4.4.9)(react@18.3.1)
+        version: 5.3.1(chart.js@4.4.9)(react@18.3.1)
       react-dnd:
         specifier: ^16.0.1
         version: 16.0.1(@types/hoist-non-react-statics@3.3.6)(@types/node@24.3.0)(@types/react@18.3.27)(react@18.3.1)
@@ -6680,8 +6680,8 @@ packages:
       react: ^16.8.5 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.5 || ^17.0.0 || ^18.0.0
 
-  react-chartjs-2@5.3.0:
-    resolution: {integrity: sha512-UfZZFnDsERI3c3CZGxzvNJd02SHjaSJ8kgW1djn65H1KK8rehwTjyrRKOG3VTMG8wtHZ5rgAO5oTHtHi9GCCmw==}
+  react-chartjs-2@5.3.1:
+    resolution: {integrity: sha512-h5IPXKg9EXpjoBzUfyWJvllMjG2mQ4EiuHQFhms/AjUm0XSZHhyRy2xVmLXHKrtcdrPO4mnGqRtYoD0vp95A0A==}
     peerDependencies:
       chart.js: ^4.1.1
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -15923,7 +15923,7 @@ snapshots:
     transitivePeerDependencies:
       - react-native
 
-  react-chartjs-2@5.3.0(chart.js@4.4.9)(react@18.3.1):
+  react-chartjs-2@5.3.1(chart.js@4.4.9)(react@18.3.1):
     dependencies:
       chart.js: 4.4.9
       react: 18.3.1
