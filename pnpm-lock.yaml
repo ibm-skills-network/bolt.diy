@@ -103,7 +103,7 @@ importers:
         version: 13.10.0
       '@openrouter/ai-sdk-provider':
         specifier: ^0.7.0
-        version: 0.7.5(ai@5.0.117(zod@3.24.4))(zod@3.24.4)
+        version: 0.7.5(ai@5.0.118(zod@3.24.4))(zod@3.24.4)
       '@phosphor-icons/react':
         specifier: ^2.1.7
         version: 2.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -183,8 +183,8 @@ importers:
         specifier: ^5.5.0
         version: 5.5.0
       ai:
-        specifier: 5.0.117
-        version: 5.0.117(zod@3.24.4)
+        specifier: 5.0.118
+        version: 5.0.118(zod@3.24.4)
       chalk:
         specifier: ^5.4.1
         version: 5.6.2
@@ -3625,8 +3625,8 @@ packages:
     resolution: {integrity: sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==}
     engines: {node: '>=8'}
 
-  ai@5.0.117:
-    resolution: {integrity: sha512-uE6HNkdSwxbeHGKP/YbvapwD8fMOpj87wyfT9Z00pbzOh2fpnw5acak/4kzU00SX2vtI9K0uuy+9Tf9ytw5RwA==}
+  ai@5.0.118:
+    resolution: {integrity: sha512-sKJHfhJkvAyq5NC3yJJ4R8Z3tn4pSHF760/jInKAtmLwPLWTHfGo293DSO4un8QUAgJOagHd09VSXOXv+STMNQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -10247,11 +10247,11 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 25.0.0
 
-  '@openrouter/ai-sdk-provider@0.7.5(ai@5.0.117(zod@3.24.4))(zod@3.24.4)':
+  '@openrouter/ai-sdk-provider@0.7.5(ai@5.0.118(zod@3.24.4))(zod@3.24.4)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
       '@ai-sdk/provider-utils': 2.2.8(zod@3.24.4)
-      ai: 5.0.117(zod@3.24.4)
+      ai: 5.0.118(zod@3.24.4)
       zod: 3.24.4
 
   '@opentelemetry/api@1.9.0': {}
@@ -12116,7 +12116,7 @@ snapshots:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  ai@5.0.117(zod@3.24.4):
+  ai@5.0.118(zod@3.24.4):
     dependencies:
       '@ai-sdk/gateway': 2.0.24(zod@3.24.4)
       '@ai-sdk/provider': 2.0.1
