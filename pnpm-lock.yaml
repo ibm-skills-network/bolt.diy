@@ -335,7 +335,7 @@ importers:
     devDependencies:
       '@blitz/eslint-plugin':
         specifier: 0.1.4
-        version: 0.1.4(jiti@2.4.2)(prettier@3.8.0)(typescript@5.9.3)
+        version: 0.1.4(jiti@2.4.2)(prettier@3.8.1)(typescript@5.9.3)
       '@cloudflare/workers-types':
         specifier: ^4.20241127.0
         version: 4.20260120.0
@@ -410,7 +410,7 @@ importers:
         version: 10.1.8(eslint@9.25.1(jiti@2.4.2))
       eslint-plugin-prettier:
         specifier: ^5.2.6
-        version: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.0)
+        version: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.1)
       fast-glob:
         specifier: ^3.3.2
         version: 3.3.3
@@ -431,7 +431,7 @@ importers:
         version: 10.28.1
       prettier:
         specifier: ^3.5.3
-        version: 3.8.0
+        version: 3.8.1
       rimraf:
         specifier: ^4.4.1
         version: 4.4.1
@@ -6748,8 +6748,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.8.0:
-    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -9259,7 +9259,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@blitz/eslint-plugin@0.1.4(jiti@2.4.2)(prettier@3.8.0)(typescript@5.9.3)':
+  '@blitz/eslint-plugin@0.1.4(jiti@2.4.2)(prettier@3.8.1)(typescript@5.9.3)':
     dependencies:
       '@stylistic/eslint-plugin-ts': 2.13.0(eslint@9.25.1(jiti@2.4.2))(typescript@5.9.3)
       '@typescript-eslint/eslint-plugin': 8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.9.3))(eslint@9.25.1(jiti@2.4.2))(typescript@5.9.3)
@@ -9270,7 +9270,7 @@ snapshots:
       eslint-config-prettier: 9.1.2(eslint@9.25.1(jiti@2.4.2))
       eslint-plugin-import-x: 3.1.0(eslint@9.25.1(jiti@2.4.2))(typescript@5.9.3)
       eslint-plugin-jsonc: 2.20.0(eslint@9.25.1(jiti@2.4.2))
-      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@9.1.2(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.0)
+      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@9.1.2(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.1)
       eslint-plugin-unicorn: 55.0.0(eslint@9.25.1(jiti@2.4.2))
       globals: 15.15.0
       typescript-eslint: 8.31.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.9.3)
@@ -13592,19 +13592,19 @@ snapshots:
     transitivePeerDependencies:
       - '@eslint/json'
 
-  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.0):
+  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.1):
     dependencies:
       eslint: 9.25.1(jiti@2.4.2)
-      prettier: 3.8.0
+      prettier: 3.8.1
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.12
     optionalDependencies:
       eslint-config-prettier: 10.1.8(eslint@9.25.1(jiti@2.4.2))
 
-  eslint-plugin-prettier@5.5.5(eslint-config-prettier@9.1.2(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.0):
+  eslint-plugin-prettier@5.5.5(eslint-config-prettier@9.1.2(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(prettier@3.8.1):
     dependencies:
       eslint: 9.25.1(jiti@2.4.2)
-      prettier: 3.8.0
+      prettier: 3.8.1
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.12
     optionalDependencies:
@@ -16181,7 +16181,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.8.0: {}
+  prettier@3.8.1: {}
 
   pretty-format@27.5.1:
     dependencies:
