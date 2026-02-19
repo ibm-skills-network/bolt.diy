@@ -44,7 +44,7 @@
     "node": ">=18.18.0"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "1.1.6",
+    "@ai-sdk/amazon-bedrock": "2.0.0",
     "@ai-sdk/anthropic": "0.0.56",
     "@ai-sdk/cohere": "1.2.10",
     "@ai-sdk/deepseek": "0.2.16",
