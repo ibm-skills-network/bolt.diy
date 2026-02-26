@@ -166,7 +166,7 @@ importers:
         version: 13.1.8
       '@uiw/codemirror-theme-vscode':
         specifier: ^4.23.6
-        version: 4.25.4(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)
+        version: 4.25.5(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)
       '@unocss/reset':
         specifier: ^0.65.0
         version: 0.65.4
@@ -3213,11 +3213,11 @@ packages:
     resolution: {integrity: sha512-I+/rgqOVBn6f0o7NDTmAPWWC6NuqhV174lfYvAm9fUaWeiefLdux9/YI3/nLugEn9L8fcSi0XmpKi/r5u0nmpw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@uiw/codemirror-theme-vscode@4.25.4':
-    resolution: {integrity: sha512-9ob5EtLqrXBFl8uf4eFRkXjyjfyfBRVsJdt7xbc33f+2/I29/2v2nEdU/xw40+dhloxF/h1Ry281f8wAs97MWQ==}
+  '@uiw/codemirror-theme-vscode@4.25.5':
+    resolution: {integrity: sha512-oLOFdNabcmvrGMgNjqDsUjaUeRfOK0N+NGGcfe7hhiCPtug84JFho5t2naOtdNyRpY1U41PNkzsgpHEjDxoUJg==}
 
-  '@uiw/codemirror-themes@4.25.4':
-    resolution: {integrity: sha512-2SLktItgcZC4p0+PfFusEbAHwbuAWe3bOOntCevVgHtrWGtGZX3IPv2k8IKZMgOXtAHyGKpJvT9/nspPn/uCQg==}
+  '@uiw/codemirror-themes@4.25.5':
+    resolution: {integrity: sha512-mvNFy1eEkWTPSztL+N6cmOOZN26Wn9mGZUsFeIIRRkGqR4+Z9NBjzWF8JHqhZ73pEMOYe3UO+cRF/M9cxiTk9Q==}
     peerDependencies:
       '@codemirror/language': '>=6.0.0'
       '@codemirror/state': '>=6.0.0'
@@ -10998,15 +10998,15 @@ snapshots:
       '@typescript-eslint/types': 8.31.1
       eslint-visitor-keys: 4.2.0
 
-  '@uiw/codemirror-theme-vscode@4.25.4(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)':
+  '@uiw/codemirror-theme-vscode@4.25.5(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)':
     dependencies:
-      '@uiw/codemirror-themes': 4.25.4(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)
+      '@uiw/codemirror-themes': 4.25.5(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)
     transitivePeerDependencies:
       - '@codemirror/language'
       - '@codemirror/state'
       - '@codemirror/view'
 
-  '@uiw/codemirror-themes@4.25.4(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)':
+  '@uiw/codemirror-themes@4.25.5(@codemirror/language@6.12.2)(@codemirror/state@6.5.4)(@codemirror/view@6.39.15)':
     dependencies:
       '@codemirror/language': 6.12.2
       '@codemirror/state': 6.5.4
