@@ -103,7 +103,7 @@ importers:
         version: 13.10.0
       '@openrouter/ai-sdk-provider':
         specifier: ^0.7.0
-        version: 0.7.5(ai@5.0.150(zod@3.25.76))(zod@3.25.76)
+        version: 0.7.5(ai@5.0.151(zod@3.25.76))(zod@3.25.76)
       '@phosphor-icons/react':
         specifier: ^2.1.7
         version: 2.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -183,8 +183,8 @@ importers:
         specifier: ^5.5.0
         version: 5.5.0
       ai:
-        specifier: 5.0.150
-        version: 5.0.150(zod@3.25.76)
+        specifier: 5.0.151
+        version: 5.0.151(zod@3.25.76)
       chalk:
         specifier: ^5.4.1
         version: 5.6.2
@@ -501,8 +501,8 @@ packages:
     peerDependencies:
       zod: ^3.0.0
 
-  '@ai-sdk/gateway@2.0.55':
-    resolution: {integrity: sha512-YDSA2eIQOfByg2Cd1FDtulqYNRSvXzwlHQRHvTl2VbX7oTr+MmR1g/21i5RdK+o15irqB/5VQNVOB0zOVY828Q==}
+  '@ai-sdk/gateway@2.0.56':
+    resolution: {integrity: sha512-omvb2Bwpgqg8PKqOpYdIaW+fdEIWcfm2B/j3dx37DxzOIt6fr57VVcfw7pu/EaACcY0O+wsg50iFCPGcsI2Cbg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3450,8 +3450,8 @@ packages:
     resolution: {integrity: sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==}
     engines: {node: '>=8'}
 
-  ai@5.0.150:
-    resolution: {integrity: sha512-a1tY3kt6NVDKU3ZTdVWDu0RwHpwXCKG0qVzqDVI6kkwnlKFvQRJsq7mPYjI0YSWFkt5DjL/Aq9NrDY4FhgUTyQ==}
+  ai@5.0.151:
+    resolution: {integrity: sha512-tsLIv+QN9wJ/xl/fnYgjRYoGSThdnOfU4d6+7QEUKX3EcwviWMEaL1gOE+zfdkcay/Tbc02ZBtTRHoulS6DYvQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -8221,7 +8221,7 @@ snapshots:
       '@ai-sdk/provider-utils': 2.2.8(zod@3.25.76)
       zod: 3.25.76
 
-  '@ai-sdk/gateway@2.0.55(zod@3.25.76)':
+  '@ai-sdk/gateway@2.0.56(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 2.0.1
       '@ai-sdk/provider-utils': 3.0.22(zod@3.25.76)
@@ -9725,11 +9725,11 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 25.0.0
 
-  '@openrouter/ai-sdk-provider@0.7.5(ai@5.0.150(zod@3.25.76))(zod@3.25.76)':
+  '@openrouter/ai-sdk-provider@0.7.5(ai@5.0.151(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
       '@ai-sdk/provider-utils': 2.2.8(zod@3.25.76)
-      ai: 5.0.150(zod@3.25.76)
+      ai: 5.0.151(zod@3.25.76)
       zod: 3.25.76
 
   '@opentelemetry/api@1.9.0': {}
@@ -11381,9 +11381,9 @@ snapshots:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  ai@5.0.150(zod@3.25.76):
+  ai@5.0.151(zod@3.25.76):
     dependencies:
-      '@ai-sdk/gateway': 2.0.55(zod@3.25.76)
+      '@ai-sdk/gateway': 2.0.56(zod@3.25.76)
       '@ai-sdk/provider': 2.0.1
       '@ai-sdk/provider-utils': 3.0.22(zod@3.25.76)
       '@opentelemetry/api': 1.9.0
