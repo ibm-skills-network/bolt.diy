@@ -364,8 +364,8 @@ importers:
         specifier: ^5.2.3
         version: 5.2.3
       '@types/dom-speech-recognition':
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.0.9
+        version: 0.0.9
       '@types/electron':
         specifier: ^1.6.12
         version: 1.6.12
@@ -3053,8 +3053,8 @@ packages:
   '@types/diff@5.2.3':
     resolution: {integrity: sha512-K0Oqlrq3kQMaO2RhfrNQX5trmt+XLyom88zS0u84nnIcLvFnRUMRRHmrGny5GSM+kNO9IZLARsdQHDzkhAgmrQ==}
 
-  '@types/dom-speech-recognition@0.0.8':
-    resolution: {integrity: sha512-JgpjlGQWGc+OjjTNfyJ8Ic2w2+NOdrmEpmdVAkg+sYblx8I5ZZTeA+cfxvgUMtXXT7/WzYYR2Rrp3ZDg+l/3vA==}
+  '@types/dom-speech-recognition@0.0.9':
+    resolution: {integrity: sha512-uxta75eB62f/Jex9wYTAypKKpiEZ5nOvBRj3TI4yI7JSc65y9eF/Lh9SFjCE3xACj5O5ox2d8nTQFe7Y/nJzfw==}
 
   '@types/electron@1.6.12':
     resolution: {integrity: sha512-NIJokDkGv9h+MStCL1IuiL1FOHYVkszoWeNxJtSI5dcEKRGbX83JcVYNAgk019qOQgJkHtz9WdP0CDXvrArrGg==}
@@ -3399,6 +3399,7 @@ packages:
   '@xmldom/xmldom@0.8.10':
     resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xterm/addon-fit@0.11.0':
     resolution: {integrity: sha512-jYcgT6xtVYhnhgxh3QgYDnnNMYTcf8ElbxxFzX0IZo+vabQqSPAjC3c1wJrKB5E19VwQei89QCiZZP86DCPF7g==}
@@ -10801,7 +10802,7 @@ snapshots:
 
   '@types/diff@5.2.3': {}
 
-  '@types/dom-speech-recognition@0.0.8': {}
+  '@types/dom-speech-recognition@0.0.9': {}
 
   '@types/electron@1.6.12':
     dependencies:
