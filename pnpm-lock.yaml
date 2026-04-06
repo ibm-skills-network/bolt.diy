@@ -324,8 +324,8 @@ importers:
         specifier: ^5.0.0
         version: 5.1.0
       vite-plugin-node-polyfills:
-        specifier: ^0.25.0
-        version: 0.25.0(rollup@4.52.5)(vite@5.4.21(@types/node@25.5.0)(sass-embedded@1.99.0)(sass@1.99.0))
+        specifier: ^0.26.0
+        version: 0.26.0(rollup@4.52.5)(vite@5.4.21(@types/node@25.5.0)(sass-embedded@1.99.0)(sass@1.99.0))
       zod:
         specifier: ^3.24.1
         version: 3.25.76
@@ -7890,10 +7890,10 @@ packages:
     resolution: {integrity: sha512-bqIaefZOE2Jx8P5wJuHKL5GzCERa/pcwdUQWaocyTNXgalN2xkxXH7LmqRJ34V2OlKF2F9E/zj0zITS7U6PpUg==}
     engines: {node: '>=14.8.0'}
 
-  vite-plugin-node-polyfills@0.25.0:
-    resolution: {integrity: sha512-rHZ324W3LhfGPxWwQb2N048TThB6nVvnipsqBUJEzh3R9xeK9KI3si+GMQxCuAcpPJBVf0LpDtJ+beYzB3/chg==}
+  vite-plugin-node-polyfills@0.26.0:
+    resolution: {integrity: sha512-BAe5YzJf368XGev02hDvioidx4uVH8dqEJlG73bjQSxM26/AQnGcKFomq9n3vGq5yqpSHKN4h1XQNxx9l98mBg==}
     peerDependencies:
-      vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
 
   vite-plugin-optimize-css-modules@1.4.0:
     resolution: {integrity: sha512-2U300dlcb4rIOlmNXJ9ro3RcCIj9fXz9fCfNZHNoi5Cq/x5cvAP+RHeePd1OaRc4kvzkzYlE0lHCliKZuMvyGA==}
@@ -16874,7 +16874,7 @@ snapshots:
     dependencies:
       fast-glob: 3.3.3
 
-  vite-plugin-node-polyfills@0.25.0(rollup@4.52.5)(vite@5.4.21(@types/node@25.5.0)(sass-embedded@1.99.0)(sass@1.99.0)):
+  vite-plugin-node-polyfills@0.26.0(rollup@4.52.5)(vite@5.4.21(@types/node@25.5.0)(sass-embedded@1.99.0)(sass@1.99.0)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.52.5)
       node-stdlib-browser: 1.3.1
