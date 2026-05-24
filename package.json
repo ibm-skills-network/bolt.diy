@@ -110,7 +110,7 @@
     "diff": "^8.0.3",
     "dotenv": "^16.4.7",
     "electron-log": "^5.2.3",
-    "electron-store": "^10.0.0",
+    "electron-store": "^11.0.0",
     "electron-updater": "^6.3.9",
     "file-saver": "^2.0.5",
     "framer-motion": "^11.12.0",
